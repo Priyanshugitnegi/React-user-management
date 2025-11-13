@@ -1,0 +1,52 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background: #0077b6;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.user-form input {
+  margin: 0.5rem;
+  padding: 0.6rem;
+}
+
+.user-form button {
+  padding: 0.6rem 1rem;
+  background: #0077b6;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.user-list table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.user-list th, .user-list td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.user-list button {
+  margin-right: 5px;
+  cursor: pointer;
+}
